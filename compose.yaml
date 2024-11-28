@@ -1,0 +1,17 @@
+version: '3.8'
+
+#services:
+#  app:
+#    image: openjdk:21-jdk-slim
+#    container_name: spring-app
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    ports:
+#      - "80:80"
+#    environment:
+#      SPRING_DATASOURCE_URL: jdbc:h2:file:~/attendanceDB
+#      SPRING_DATASOURCE_USERNAME: sa
+#      SPRING_DATASOURCE_PASSWORD: ""
+#      SPRING_H2_CONSOLE_ENABLED: "true"
+#    command: ["java", "-jar", "/AttendanceServer.jar"]
