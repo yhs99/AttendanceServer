@@ -16,10 +16,6 @@ public class ApiResponseEntity<T> {
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 	private LocalDateTime requestTime;
 
-	public ApiResponseEntity() {
-		super();
-	}
-
 	public ApiResponseEntity(String statusCode, T data) {
 		this.statusCode = statusCode;
 		this.data = data;

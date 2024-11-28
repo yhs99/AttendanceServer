@@ -6,13 +6,11 @@ import java.util.Arrays;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import lombok.extern.slf4j.XSlf4j;
 
 @Getter
 @Aspect
@@ -36,7 +34,7 @@ public class ApiLoggingAspect {
 		try {
 			result = joinPoint.proceed(args);
 		}finally {
-			long endTime = System.currentTimeMillis();
+			long endTime = System.currentTimeMillis() - startTime;
 
 			String logMessage = String.format(
 				"API CALLED :: [%s] %s - %s, Params: %s, 처리시간 :: %dms",
