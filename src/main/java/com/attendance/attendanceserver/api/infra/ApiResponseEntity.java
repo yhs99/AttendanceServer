@@ -1,4 +1,4 @@
-package com.attendance.attendanceserver.infra;
+package com.attendance.attendanceserver.api.infra;
 
 import java.time.LocalDateTime;
 

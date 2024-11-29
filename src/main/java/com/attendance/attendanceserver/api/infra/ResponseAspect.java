@@ -1,4 +1,4 @@
-package com.attendance.attendanceserver.infra;
+package com.attendance.attendanceserver.api.infra;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
