@@ -121,6 +121,8 @@
         }).start();
     }
 ```
+### 프로그램 트레이 아이콘
+![image](https://github.com/user-attachments/assets/c22b01fc-6dae-44e3-8ea0-5febe73309b6)
 
 ### 프로그램 실행시
 ![image](https://github.com/user-attachments/assets/cabc76a0-db04-438c-a554-5732610b64c1)
