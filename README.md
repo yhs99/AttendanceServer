@@ -58,7 +58,7 @@
             OutputStream os = null;
             
             try {
-                URI uri = new URI("https://jsonplaceholder.typicode.com/posts");
+                URI uri = new URI("https://jsonplaceholder.typicode.com/posts"); // 예시 URL
                 URL url = uri.toURL();
                 conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
